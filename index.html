@@ -1,0 +1,391 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <title>Duke BMES</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-52970361-3', 'auto');
+        ga('require', 'linkid');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- Duke Alert Bar -->
+    <link rel="stylesheet" href="https://alertbar.oit.duke.edu/sites/all/themes/blackwell/css/alert.css" type="text/css" media="Screen" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	<!-- FOR COLLAPSIBLE TEXT
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5jquery.mobile-1.4.5.min.js"></script>
+	 END COLLAPSIBLE TEXT -->
+
+</head>
+
+<body class="landing">
+
+    <div id="fb-root"></div>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="#banner">Duke BMES</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a class="scrolly" href="#banner">Home</a></li>
+                                <li><a class="scrolly" href="#about">About Us</a></li>
+                                <li><a class="scrolly" href="#events">Events</a></li>
+                                <li><a class="scrolly" href="#board">Executive Board</a></li>
+                                <!-- <li><a class="scrolly" href="#design">Designs</a></li> -->
+                                <!-- <li><a class="scrolly" href="#footer">Contact Us</a></li> -->
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <script src="https://alertbar.oit.duke.edu/alert.html" type="text/javascript"></script>
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>Duke Biomedical Engineering Society</h2>
+                <p>The student chapter for the
+                    <br /><a href="http://www.bmes.org/">Biomedical Engineering Society</a>
+                    <br /> at <a href="http://pratt.duke.edu/">Duke University</a>.</p>
+            </div>
+            <a href="#about" class="more scrolly">Learn More</a>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="wrapper style1 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>Who we are</h2>
+                    <p>Duke's Biomedical Engineering Society (BMES) is an organization of curious and talented young people who seek to make a difference in the world. Representing the largest engineering major at Duke, BMES offers a wide range of activities from course panels and tours to banquets and social events. Through our events, we offer unique opportunities to interact with other Biomedical Engineering students, faculty, and professionals.</p>
+                </header>
+                <ul class="icons major">
+                    <li><span class="icon fa-connectdevelop major style1"><span class="label">Lorem</span></span>
+                    </li>
+                    <li><span class="icon fa-heartbeat major style2"><span class="label">Ipsum</span></span>
+                    </li>
+                    <li><span class="icon fa-user-md major style3"><span class="label">Dolor</span></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Events -->
+        <section id="events" class="wrapper alt style2">
+            <header class="major">
+                <h2>Upcoming Events</h2>
+                <p>Click on the events below to learn more!</p>
+                <!-- <div data-role="main" class="ui-content">
+    				<div data-role="collapsible">
+      					<h1>Click me - I'm collapsible!</h1>
+     					<p>I'm the expanded content.</p>
+    				</div>
+  				</div> -->
+  				<style>
+					button.accordion {
+					    background-color: #eee;
+					    color: #444;
+					    cursor: pointer;
+					    padding: 0 18px;
+					    float: center;
+					    width: 66%;
+					    border: none;
+					    text-align: left;
+					    outline: none;
+					    font-size: 15px;
+					    transition: 0.4s;
+					}
+
+					button.accordion.active, button.accordion:hover {
+					    background-color: #ddd;
+					}
+
+					button.accordion:after {
+					    content: '\002B';
+					    color: #777;
+					    font-weight: bold;
+					    float: right;
+					    margin-left: 5px;
+					}
+
+					button.accordion.active:after {
+					    content: "\2212";
+					}
+
+					div.panel {
+					    padding: 0 18px;
+					    background-color: gray;
+					    max-height: 0;
+					    width: 66%;
+					    margin: 0 auto;
+					    margin-bottom: 18px;
+					    overflow: hidden;
+					    transition: max-height 0.2s ease-out;
+					    font-size: 15px;
+					    border-radius: 5px;
+					}
+				</style>
+			</head>
+		<body>
+
+			<button class="accordion">Invited Lecture: Dr. Milan Yager</button>
+				<div class="panel">
+					<p>Date: September 28, 2018</p>
+					<p>“The Science of Failed Public Policy – Why Congress Doesn’t Fund Medical Innovation,” hosted by AIMBE Executive Director Milan Yager. Learn more <a href="https://aimbe.org/university-public-policy-lecture-series/">here.</a></p>
+				</div>
+
+			<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].onclick = function() {
+				    this.classList.toggle("active");
+				    var panel = this.nextElementSibling;
+				    if (panel.style.maxHeight){
+				      panel.style.maxHeight = null;
+				    } else {
+				      panel.style.maxHeight = panel.scrollHeight + "px";
+				    }
+				  }
+				}
+			</script>
+
+            </header>
+        </section>
+
+        <!-- Board -->
+        <section id="board" class="wrapper style4 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>Executive Board</h2>
+                    <p>Contact us if you'd like to get involved or partner with us!</p>
+                </header>
+                <ul class="features">
+                    <li class="icon fa-paper-plane-o">
+                        <div style="float: left; width: 62%;">
+                        <h3>Vincent Peng</h3>
+                        <br>
+                        <p><strong>President</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        <!-- <img src="images/Profile_Vincent_crop.png"> -->
+                        </div>
+                    </li>
+                    <li class="icon fa-laptop">
+                    	<div style="float: left; width: 62%;">
+                        <h3>Anish Karpurapu</h3>
+                        <!-- <img src="images/Email_Jay.png" align="left"> -->
+                        <br>
+                        <p><strong>Vice President</strong>
+                            <br>Class of 2022</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        <!-- <img src="images/Profile_Jason_crop.png"> -->
+                        </div>
+                    </li>
+                    <li class="icon fa-leanpub">
+                        <div style="float: left; width: 62%;">
+                        <h3>Stephanie Crater</h3>
+                        <br>
+                        <p><strong>Secretary</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-database">
+                        <div style="float: left; width: 62%;">
+                        <h3>Alice Zhang</h3>
+                        <br>
+                        <p><strong>Treasurer</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Alyssa Nicholas</h3>
+                        <br>
+                        <p><strong>Industry/Alumni Outreach</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Abinaya Lakshmanan</h3>
+                        <br>
+                        <p><strong>Industry/Alumni Outreach</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Michael Tian</h3>
+                        <br>
+                        <p><strong>Faculty Outreach</strong>
+                            <br>Class of 2022</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Philip Cho</h3>
+                        <br>
+                        <p><strong>Faculty Outreach</strong>
+                            <br>Class of 2022</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Dylan Cai</h3>
+                        <br>
+                        <p><strong>BMEntors/Social </strong>
+                            <br>Class of 2023</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <li class="icon fa-connectdevelop">
+                        <div style="float: left; width: 62%;">
+                        <h3>Britney Chu</h3>
+                        <br>
+                        <p><strong>Internal Affairs</strong>
+                            <br>Class of 2023</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        </div>
+                    </li>
+                    <!-- START COMMENT: OTHER EXEC POSITIONS -->
+                    <!--
+                    <li class="icon fa-heart-o">
+                        <div style="float: left; width: 62%;">
+                        <h3>Vincent Peng</h3>
+                        <br>
+                        <p><strong>Freshmen Representative</strong>
+                            <br>Class of 2021</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        <img src="images/Profile_Vincent_crop.png">
+                        </div>
+                    </li>
+                    <li class="icon fa-info">
+                        <div style="float: left; width: 62%;">
+                        <h3>Brian Chan</h3>
+                        <br>
+                        <p><strong>Student Liaison</strong>
+                            <br>Class of 2018</p>
+                        </div>
+                        <div style="float: right; width: 38%; object-fit: contain">
+                        <img src="images/Profile_Brian_crop.png">
+                        </div>
+                    </li>
+                	-->
+                	<!-- END COMMENT: OTHER EXEC POSITIONS -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Design
+        <section id="design" class="wrapper alt style3">
+            <header class="major">
+                <h2>Designs</h2>
+            </header>
+            <ul>
+                <li class="button">
+                    <a href="images/icon.pdf" class="icon fa-info"> Icon</a>
+                </li>
+                <li class="button">
+                    <a href="images/simple.pdf" class="icon fa-lightbulb-o"> Logo 1</a>
+                </li>
+                <li class="button">
+                    <a href="images/simple2.pdf" class="icon fa-leaf"> Logo 2</a>
+                </li>
+                <li class="button">
+                    <a href="images/complex.pdf" class="icon fa-camera"> Logo 3</a>
+                </li>
+                <li class="button">
+                    <a href="images/background.pdf" class="icon fa-picture-o"> Background</a>
+                </li>
+            </ul>
+        </section>
+    	-->
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="http://www.facebook.com/dukebmes/" class="icon fa-2x fa-facebook-official"><span class="label">Facebook</span></a></li>
+            </ul>
+            <ul class="copyright"></ul>
+        </footer>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Skeleton + Plugins -->
+    <script src="js/skel.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/moment.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/init.js"></script>
+    <script src="js/events.js"></script>
+
+</body>
+
+</html>
